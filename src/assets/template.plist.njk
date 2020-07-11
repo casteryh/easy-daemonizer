@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+            <string>{{ label }}</string>
+        <key>ProgramArguments</key>
+        <array>
+        {% for argument in programArguments%}
+            <string>{{argument}}</string>
+        {% endfor %}
+        </array>
+        <key>EnvironmentVariables</key>
+        <dict>
+        {% for key, value in environmentVariables %}
+            <key>{{ key }}</key>
+            <string>{{ value }}</string>
+        {% endfor %}
+        </dict>
+	    <key>RunAtLoad</key>
+            <{{"true" if runAtLoad else "false"}}/>
+        <key>KeepAlive</key>
+            <{{"true" if keepAlive else "false"}}/>
+        <key>ThrottleInterval</key>
+            <integer>{{ throttleInterval }}</integer>
+    </dict>
+</plist>

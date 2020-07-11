@@ -1,0 +1,27 @@
+{
+  "name": "easy-daemonizer",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "bin": {
+    "easyd": "./src/bin/app.js"
+  },
+  "scripts": {
+    "test": "./src/bin/app.js"
+  },
+  "author": "casteryh",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "esm": "^3.2.25",
+    "inquirer": "^7.3.1",
+    "nunjucks": "^3.2.1",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
