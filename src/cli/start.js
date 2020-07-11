@@ -38,7 +38,7 @@ export const startApp = () => {
       .option('-t, --throttle-interval <time>',
           'set ThrottleInterval in seconds (default : 1)')
       .option('-l, --label <label>',
-          'set label (default: local.easyd.$name_of_binary')
+          'set label (default: local.easyd.$name_of_binary)')
       .option('-y, --yes', 'Yes to all prompts')
       .option('-w, --working-directory <path>',
           'set working directory (default: cwd)');

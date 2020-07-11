@@ -26,7 +26,7 @@ I write the plist file for you, so you don't have to.
     -K, --dont-keep-alive           set KeepAlive to false (true by default)
     -R, --dont-run-at-load          set RunAtLoad to false (true by default)
     -t, --throttle-interval <time>  set ThrottleInterval in seconds (default : 1)
-    -l, --label <label>             set label (default: local.easyd.$name_of_binary
+    -l, --label <label>             set label (default: local.easyd.$name_of_binary)
     -y, --yes                       Yes to all prompts
     -w, --working-directory <path>  set working directory (default: cwd)
     -h, --help                      display help for command
