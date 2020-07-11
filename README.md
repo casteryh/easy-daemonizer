@@ -9,7 +9,8 @@ I write the plist file for you, so you don't have to.
 
     git clone https://github.com/casteryh/easy-daemonizer.git
     cd easy-daemonizer
-    npm link
+    yarn install
+    yarn link
 
 ## Usage
 
